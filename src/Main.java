@@ -18,5 +18,13 @@ public class Main {
         proyector.ejecutarDiagnostico();
         computador.ejecutarDiagnostico();
         impresora.ejecutarDiagnostico();
+
+        Dispositivo dispositivo1 = new Proyector("Proyector Sala 201", true);
+        Dispositivo dispositivo2 = new Computador("PC Laboratorio", true);
+        Dispositivo dispositivo3 = new Impresora("Impresora Biblioteca", true);
+
+        dispositivo1.ejecutarDiagnostico();
+        dispositivo2.ejecutarDiagnostico();
+        dispositivo3.ejecutarDiagnostico();
     }
 }
