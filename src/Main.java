@@ -14,5 +14,9 @@ public class Main {
         proyector.mostrarEstado();
         computador.mostrarEstado();
         impresora.mostrarEstado();
+
+        proyector.ejecutarDiagnostico();
+        computador.ejecutarDiagnostico();
+        impresora.ejecutarDiagnostico();
     }
 }
